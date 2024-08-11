@@ -6,13 +6,25 @@
 	list-style: none;
 	font-family: calibri;
 }
+
+
 .header
 {
 	display: flex;
-	justify-content: space-around; 
+	justify-content: space-between; 
 	flex-wrap: wrap;
-	padding-top: 20px;
+	padding-top: 2rem;
 }
+
+.container
+{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0.6rem;
+
+}
+
+
 .header .email #icon
 {
 	float: left;
@@ -61,9 +73,9 @@
 
 	.menu-container
 		{
-			background: #041629;
-			width: 80%;
-		  padding: 15px;
+		background:#000;
+		width: 100%;
+		display: flex;
 		}
 		.menu-container .menu
 		{
@@ -92,7 +104,7 @@
 		}
 		.menu-container .search-btn input
 		{
-			background: #041629;
+			
 			border: 0;
 			outline: 0;
 			color: gray;
@@ -103,7 +115,7 @@
 		}
 
 
-	.menu-container
+	/* .menu-container
 		{
 			background: #041629;
 			width: 80%;
@@ -111,7 +123,7 @@
 			position: relative;
 			left: 50%;
 			transform: translateX(-50%);
-		}
+		} */
 		.menu-container .menu
 		{
 			flex: 50%;
@@ -603,7 +615,7 @@
 		  .scroll .about  .right .doc h1
 		  {
             padding: 15px 0;
-            margin: 15px 0;
+            margin: 10px;
 		  }
 		   .scroll .about  .right .doc p
 		   {
